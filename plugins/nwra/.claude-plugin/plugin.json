@@ -9,6 +9,8 @@
   "homepage": "https://github.com/Northwest-Registered-Agent/nwra-claude-plugin",
   "repository": "https://github.com/Northwest-Registered-Agent/nwra-claude-plugin",
   "privacyPolicyUrl": "https://www.northwestregisteredagent.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.northwestregisteredagent.com/terms-policy",
+  "supportUrl": "https://www.northwestregisteredagent.com/contact-us",
   "license": "MIT",
   "keywords": [
     "northwest registered agent",
