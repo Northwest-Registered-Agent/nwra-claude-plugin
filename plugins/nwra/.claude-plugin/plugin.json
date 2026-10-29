@@ -1,0 +1,23 @@
+{
+  "name": "nwra",
+  "version": "0.1.0",
+  "description": "Form and manage your business with Northwest Registered Agent: business formation, state filings, registered agent service, domains, business email and phone.",
+  "author": {
+    "name": "Northwest Registered Agent",
+    "email": "engineering@northwestregisteredagent.com"
+  },
+  "homepage": "https://github.com/Northwest-Registered-Agent/nwra-claude-plugin",
+  "repository": "https://github.com/Northwest-Registered-Agent/nwra-claude-plugin",
+  "privacyPolicyUrl": "https://www.northwestregisteredagent.com/privacy-policy",
+  "license": "MIT",
+  "keywords": [
+    "northwest registered agent",
+    "business formation",
+    "llc",
+    "registered agent",
+    "state filings",
+    "compliance",
+    "domain",
+    "business email"
+  ]
+}

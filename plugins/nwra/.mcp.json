@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "nwra": {
+      "type": "http",
+      "url": "https://mcp.northwestregisteredagent.com",
+      "oauth": {
+        "clientId": "mcp-connector"
+      }
+    }
+  }
+}

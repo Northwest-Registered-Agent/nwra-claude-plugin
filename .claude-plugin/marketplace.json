@@ -1,0 +1,19 @@
+{
+  "name": "nwra-plugins",
+  "owner": {
+    "name": "Northwest Registered Agent",
+    "email": "chrispurta@corporatetools.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins from Northwest Registered Agent"
+  },
+  "plugins": [
+    {
+      "name": "nwra",
+      "source": "./plugins/nwra",
+      "description": "Form and manage your business with Northwest Registered Agent: business formation, state filings, registered agent service, domains, business email and phone.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
