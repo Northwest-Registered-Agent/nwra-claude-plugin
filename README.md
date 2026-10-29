@@ -18,6 +18,8 @@ claude plugin marketplace add Northwest-Registered-Agent/nwra-claude-plugin
 claude plugin install nwra@nwra-plugins
 ```
 
+If the install fails with an "invalid manifest" error, update Claude Code (`claude update`) and try again.
+
 Then sign in: run `/mcp`, select `plugin:nwra:nwra`, and log in with your Northwest account in the browser window that opens.
 
 ## Commands

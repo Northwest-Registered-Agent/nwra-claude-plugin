@@ -11,6 +11,8 @@ In Claude Code:
 /plugin install nwra@nwra-plugins
 ```
 
+If the install fails with an "invalid manifest" error, update Claude Code (`claude update`) and try again.
+
 ## Setup
 
 After installing, run `/mcp`, select `plugin:nwra:nwra`, and sign in with your Northwest account in the browser window that opens.
