@@ -1,6 +1,6 @@
 ---
 name: nwra-vehicle-registration
-description: Use when the user wants to register a vehicle through Northwest Registered Agent (NWRA) or check their existing NWRA vehicle registrations.
+description: Use when the user wants to register a vehicle through Northwest Registered Agent (NWRA) or check their existing Northwest Registered Agent vehicle registrations.
 ---
 
 # NWRA vehicle registration

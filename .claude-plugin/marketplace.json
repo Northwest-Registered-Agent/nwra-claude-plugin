@@ -10,6 +10,7 @@
   "plugins": [
     {
       "name": "nwra",
+      "displayName": "Northwest Registered Agent",
       "source": "./plugins/nwra",
       "description": "Form and manage your business with Northwest Registered Agent: business formation, state filings, registered agent service, domains, business email and phone.",
       "version": "0.1.0",

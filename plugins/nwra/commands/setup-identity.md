@@ -1,5 +1,5 @@
 ---
-description: Set up a business domain, email, and phone number through NWRA
+description: Set up a business domain, email, and phone number through Northwest Registered Agent
 argument-hint: "[company name or desired domain]"
 ---
 

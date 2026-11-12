@@ -1,5 +1,5 @@
 ---
-description: Show upcoming state filings and compliance deadlines for your NWRA companies
+description: Show upcoming state filings and compliance deadlines for your Northwest Registered Agent companies
 argument-hint: "[company name]"
 ---
 

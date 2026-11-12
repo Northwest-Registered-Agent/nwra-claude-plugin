@@ -1,11 +1,13 @@
 ---
 name: nwra-business-services
-description: Use when the user wants to form or manage a business through Northwest Registered Agent (NWRA) — forming an LLC or corporation, registered agent service, annual reports and other state filings, compliance deadlines, or setting up a business domain, email, or phone number. Also use when they ask about the status of an existing NWRA company, order, or filing.
+description: Use when the user wants to form or manage a business through Northwest Registered Agent (NWRA) — forming an LLC or corporation, registered agent service, annual reports and other state filings, compliance deadlines, or setting up a business domain, email, or phone number. Also use when they ask about the status of an existing Northwest Registered Agent company, order, or filing.
 ---
 
 # Northwest Registered Agent business services
 
 The `nwra` MCP server connects to the user's Northwest Registered Agent account. Use its tools for anything that reads or changes account data, and never guess at account details, filing status, prices, or state requirements: look them up through the tools.
+
+When talking to the user, call the company "Northwest Registered Agent" (or "Northwest" for short), never "NWRA": most users won't know the abbreviation.
 
 ## Before acting
 
