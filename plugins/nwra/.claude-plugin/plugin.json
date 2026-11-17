@@ -13,6 +13,7 @@
   "termsOfServiceUrl": "https://www.northwestregisteredagent.com/terms-policy",
   "supportUrl": "https://www.northwestregisteredagent.com/contact-us",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": [
     "northwest registered agent",
     "business formation",

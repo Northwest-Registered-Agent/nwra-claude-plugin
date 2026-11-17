@@ -1,0 +1,56 @@
+name: Validate plugin
+
+on:
+  push:
+    branches: [main]
+    tags: ["*--v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Unpinned on purpose: newer releases add the plugin directory's latest
+      # submission checks, and those are what we want CI to enforce.
+      - name: Install Claude Code CLI
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: Validate marketplace manifest
+        run: claude plugin validate . --strict
+
+      - name: Run plugin directory submission checks
+        run: |
+          status=0
+          for dir in plugins/*/; do
+            echo "::group::${dir}"
+            claude plugin validate "$dir" --profile directory --strict || status=1
+            echo "::endgroup::"
+          done
+          exit $status
+
+      - name: Check plugin.json and marketplace versions agree
+        run: |
+          status=0
+          for dir in plugins/*/; do
+            claude plugin tag "$dir" --dry-run --force || status=1
+          done
+          exit $status
+
+      - name: Check repo submission files
+        run: ./scripts/check-submission.sh

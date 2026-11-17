@@ -62,8 +62,11 @@ Validate before pushing:
 
 ```
 claude plugin validate .
-claude plugin validate plugins/nwra
+claude plugin validate plugins/nwra --profile directory --strict
+./scripts/check-submission.sh
 ```
+
+CI ([.github/workflows/validate.yml](.github/workflows/validate.yml)) runs these on every push and pull request, plus a check that `version` matches in `plugin.json` and `marketplace.json`. Passing CI covers the plugin directory's automated checks only; the directory also runs a safety scan and a policy review when you submit at [claude.ai/directory/manage](https://claude.ai/directory/manage).
 
 ### Releasing
 
